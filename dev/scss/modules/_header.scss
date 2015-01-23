@@ -1,0 +1,142 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+.Header {
+  background-image: url("../img/img-header-bg.png");
+  background-size: cover;
+}
+.phonetext{
+  margin-top:4px ;
+}
+.phoneicon{
+  margin-right:90px;
+}
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Contact bar ----- //
+
+.Header-contact {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.5);
+}
+
+// ----- Contact bar ----- //
+
+.Header-logo {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.25);
+}
+
+// ----- Nav bar ----- //
+
+.Header-nav {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: $c-blue;
+}
+
+// ----- Carousel ----- //
+
+.Header-carousel {
+  @extend .u-gridRow;
+  padding-bottom : ($l-whiteSpace * 4);
+  padding-top    : ($l-whiteSpace * 4);
+}
+
+.header-slider{
+  background-image: url("../img/background_wood.jpg");
+  padding-top:130px;
+  padding-bottom:5%;
+  position: relative;
+-webkit-box-shadow: 0px 2px 4px 0px rgba(34, 50, 50, 0.87);
+-moz-box-shadow:    0px 2px 4px 0px rgba(34, 50, 50, 0.87);
+box-shadow:         0px 2px 4px 0px rgba(34, 50, 50, 0.87);
+
+}
+.sliderboven-wrapper, .slideronder-wrapper{
+  position: relative;
+}
+.sliderBoven{
+    background: url("../img/boogslidertop.png") no-repeat;
+background-size: 100% 100%;
+width: 84%;
+height: 40px;
+position: absolute;
+z-index: 999;
+top: -20px;
+left: 8%;
+}
+.walkingbier{
+position: absolute;
+right: 22px;
+z-index: 2;
+top: -130px;
+}
+.sliderOnder{
+    background: url("../img/sliderbottom.png") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top:-10px;
+
+}
+
+.sliderborder-bottom{
+      background-image: url("../img/shelf.jpg");
+    min-height: 15px;
+    box-shadow: 0px 5px 8px 4px rgba(30, 19, 11, 0.28) inset;
+} 
+.phoneTop{
+  position:relative;
+  a{
+    color:#0C4737; 
+    position:absolute;
+    right: 0;
+    top: 20px;
+  }
+}
+
+@media all and (max-width: 414px) { 
+  .phoneTop{
+    display: none;
+  }
+  .header-slider{
+    padding-top: 75px;
+  }
+}

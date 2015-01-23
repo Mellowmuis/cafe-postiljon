@@ -1,0 +1,40 @@
+.Footer {
+	background-image: url("../img/background_wood.jpg");
+	padding-bottom:1%;
+	padding-top: 1.5%;
+	h4{
+		margin:0;
+	}
+	a{
+		color: #DEB485;
+	}
+}
+#menu-footermenu{
+	color: rgb(12, 71, 55);
+}
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+.Socket{
+	background: none repeat scroll 0% 0% #0C4737;
+	text-align: center;
+}
+// footer responsive ------------------
+
+@media all and (max-width: 698px) {
+	.Footer{
+		text-align: center;
+	}
+}

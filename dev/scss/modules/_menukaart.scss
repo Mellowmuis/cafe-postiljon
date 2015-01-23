@@ -1,0 +1,41 @@
+.menu-wrapper{
+	h1{
+		margin: 0;
+	}
+	h2{
+		font-size:30px;
+		border-bottom: 3px solid #DEB485;
+	}
+	h3{
+		font-size:20px;
+	}
+	.wprmm_menu{
+		padding: 0 2% 0 0;
+		display: none;
+	}
+} 
+.menu-menukaart{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.menu-menukaart-button{
+	background: #0c4737;
+	border: rgba(219, 202, 108, 1) solid 2px;
+	padding: 2% 7%;
+	color:rgba(219, 202, 108, 1);
+	margin: 0 4% 0 0;	
+
+}
+@media all and (max-width: 736px) { 
+	.menu-menukaart-button{ 
+		padding: 2% 2%;
+	}
+	.menu-wrapper .wprmm_menu{
+		overflow-y: visible;
+	}
+}
+@media all and (max-width: 375px) {
+	.menu-menukaart-button {
+	    font-size: 13px;
+	}
+}
