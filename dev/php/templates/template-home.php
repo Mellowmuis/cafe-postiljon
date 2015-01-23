@@ -41,12 +41,15 @@ Template Name: Homepage
 	<div class="home-mid2">
 		<div class="u-gridContainer">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<article class="Content Content--home" id="post-<?php the_ID(); ?>">
+			<article class="Content Content--home u-gridCol9" id="post-<?php the_ID(); ?>">
 				<h2 class="home-h2">Welkom bij cafe/brasserie Postiljon</h2>
 				<div>
 					<?php the_content(); ?> 
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 				</div>
+			</article>
+			<artcicle class="u-gridCol3">
+				 <img  class="header-onderkant-slider-image jaar"src="<?php echo get_stylesheet_directory_uri(); ?>/img/postiljon-30jaar.png" /> 
 			</article>
 		<?php endwhile; endif; ?>
 		</div>
