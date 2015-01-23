@@ -12,19 +12,10 @@ Template Name: Homepage
             </div>
                 <div class="Slider"> <!-- Dit is de slider in de onderkant header -->
                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider1.jpg" >
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.jpg" >
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/2.jpg" />
-                    </div>
-                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.jpg" />
-                    </div>
-                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.jpg" />
-                    </div>
-                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.jpg" /> 
                     </div>
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.jpg" />
@@ -64,7 +55,7 @@ Template Name: Homepage
 		<div class="u-gridContainer u-gridRow">
 				<article class="home-content u-gridCol3 home-content home-content-1"> 
 					<div class="home-content-img img1"></div>
-					<a class="home-content-a"href="/verhuur/">Verhuur</a>
+					<a class="home-content-a"href="/verhuur/">Zalenverhuur</a>
 				</article>
 				<article class="home-content u-gridCol3 home-content home-content-2">
 					<div class="home-content-img img2"> </div>
@@ -80,6 +71,6 @@ Template Name: Homepage
 				</article>
 		</div>
 	</div>
-</div>
+</div> 
 
 <?php get_footer(); ?>
