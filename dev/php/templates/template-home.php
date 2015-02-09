@@ -15,16 +15,31 @@ Template Name: Homepage
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.jpg" >
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.jpg" /> 
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/gebouw.png" />
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.jpg" />
+                    </div>
+                     <div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.jpg" />
+                    </div>
+                     <div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.png" />
                     </div>
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/7.jpg"/ >
                     </div>
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/8.jpg"/>
+                    </div>
+                    <div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.png"/>
+                    </div>
+                    <div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.png"/>
+                    </div>
+                    <div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.png"/>
                     </div>
                 </div>   <!-- einde slider van de onderkant header --> 
                 <div class="slideronder-wrapper"> 
@@ -66,7 +81,7 @@ Template Name: Homepage
 				</article>
 				<article class="home-content u-gridCol3 home-content home-content-3">
 					<div class="home-content-img img3"></div>
-					<a class="home-content-a" href="/drankenkaart/">Drankenkaart</a>
+					<a class="home-content-a" href="/menukaart/">Menukaart</a>
 				</article>
 				<article class="home-content u-gridCol3 home-content home-content-4">
 					<div class="home-content-img img4"></div>

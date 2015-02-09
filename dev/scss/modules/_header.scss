@@ -11,9 +11,18 @@
 }
 .phonetext{
   margin-top:4px ;
+
+}
+.mailtext{
+  margin-top:13px ;
+  margin-left: 32px;
 }
 .phoneicon{
-  margin-right:90px;
+  margin-right: 85px;
+}
+.mailicon{
+  margin-right: 148px;
+  margin-top: 10px;
 }
 // -------------------------------------
 // Module specific variables
@@ -129,6 +138,16 @@ top: -130px;
     position:absolute;
     right: 0;
     top: 20px;
+    right: 63px;
+  }
+}
+.mailTop{
+  position:relative;
+  a{
+    color:#0C4737; 
+    position:absolute;
+    right: 0;
+    top: 50px;
   }
 }
 

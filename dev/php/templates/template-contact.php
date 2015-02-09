@@ -10,9 +10,9 @@ Template Name: Contactpage
             <div class="sliderboven-wrapper">
                 <div class="sliderBoven"></div>
             </div>
-                <div class="Slider"> <!-- Dit is de slider in de onderkant header -->
-                    	<div id="map_canvas"></div>
-                </div>   <!-- einde slider van de onderkant header --> 
+                 <!-- Dit is de slider in de onderkant header -->
+                    <div class="map-slider" id="map_canvas"></div>
+                  <!-- einde slider van de onderkant header --> 
                 <div class="slideronder-wrapper"> 
                 <img class="walkingbier" src="<?php echo get_stylesheet_directory_uri(); ?>/img/walkingbier.png"/> 
                     <div class="sliderOnder"></div>

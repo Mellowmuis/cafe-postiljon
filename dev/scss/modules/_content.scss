@@ -1,6 +1,9 @@
 .Content {
  
 }
+h2{
+	color:#E7D573 !important;
+}
 // home ---------------------------------------------
 .jaar{
 	margin-top: 25px;
@@ -26,7 +29,7 @@
 }
 .home-h2{
 	text-align: center;
-color: #DEB485;
+color: #E7D573;
 text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.61);
 font-size: 60px; 
 margin: 1%;
@@ -62,7 +65,7 @@ margin: 1%;
 }
 .home-content-a{
 	background: none repeat scroll 0% 0% #112F28;
-	color: #DEB485;
+	color: #E7D573;
 	padding: 3%;
 	position: relative;
 	width: 100%;
@@ -92,6 +95,11 @@ margin: 1%;
 	height: 100%;
 	overflow: hidden;
 }
+.side-right2{
+	@extend .side-right;
+
+	height:1100px;
+}
 .extender-in{
 	background-image: url("../img/background_woodslider.png");
 	height: 100%;
@@ -100,7 +108,25 @@ margin: 1%;
 
 	bottom: 0; 
 } 
-
+.extender-in-2{
+	background-image: url("../img/background_woodslider.png");
+	height:100%;
+	#input_3_2{
+		width:100%;
+	}
+	#input_3_3{
+		width:100%;
+	}
+	#input_3_4{
+		width:100%;
+	}
+	#input_3_5{
+		width:100%;
+	}
+	#input_3_2{
+		width:100%;
+	}
+} 
 .wrapper-right-side{
 	margin-right: 0 !important;
 }
@@ -116,6 +142,11 @@ height: auto;
 	bottom: -21%;
 	left: 51%;
 }
+.heiniken-2{
+	bottom: -7%;
+	left: 51%;
+	z-index: -1;
+}
 .page-h2{
 	text-align: left;
 	color: #DEB485;
@@ -126,7 +157,10 @@ height: auto;
 }
 
 // contact -------------------------------------------------------------
-
+.map-slider{
+	width:83.8% !important;
+	margin:0 auto;
+}
 .Content-text{
 	position: relative;
 }
@@ -411,11 +445,11 @@ padding: 10px 50px;
 		border-top: 10px solid #112F28;
 	}
 	.img1{
-		background: url("../img/home-content-mob-3.jpg")no-repeat;
+		background: url("../img/home-content-mob-3.png")no-repeat;
 		background-size:100% 100%;
 	}
 	.img2{
-		background: url("../img/home-content-mob-2.jpg")no-repeat;
+		background: url("../img/home-content-mob-2.png")no-repeat;
 		background-size:100% 100%;
 	}
 	.img3{

@@ -45,8 +45,12 @@
     <div class="u-gridContainer phoneTop">
          <a class="phoneicon"href="tel:0104651126"><img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/phonetop.svg"/></a>
         <a class="phonetext"href="tel:0104651126">0104651126</a> 
+       
     </div>
-
+    <div class="u-gridContainer mailTop">
+        <a class="mailicon" href="mailto:hello@cafepostiljon.nl"><img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/mail2.svg"/></a>
+        <a class="mailtext" href="mailto:hello@cafepostiljon.nl">hello@cafepostiljon.nl</a>
+    </div>
     <a href="/home"> <img class="logo-top" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logoTop.png"/></a>
 
   <div class="Bot-Nav">

@@ -16,9 +16,6 @@ Template Name: landingspage
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider1.jpg" >
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/2.jpg" />
-                    </div>
-                     <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.jpg" />
                     </div>
                      <div>

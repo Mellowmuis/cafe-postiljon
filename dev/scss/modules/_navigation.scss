@@ -75,7 +75,7 @@
   padding: 0.5% 0;
   position: relative;
   a{
-      color: #cdb57e;
+      color: #EAD56F;
   }
 } 
 .Navigation{
@@ -97,6 +97,9 @@
  float: right;
 }
 .Navigation  > ul >.Navigation-listItem:nth-of-type(6){
+ float: right;
+}
+.Navigation  > ul >.Navigation-listItem:nth-of-type(7){
  float: right;
 }
 .logo-top{

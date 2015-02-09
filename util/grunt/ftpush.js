@@ -16,7 +16,7 @@ module.exports = {
     },
     src: 'dist/child',
     dest: '/wp-content/themes/slate-<%= package.version %>_<%= package.name %>',
-    simple: false,
+    simple: true,
     useList: false
   },
 
@@ -30,7 +30,7 @@ module.exports = {
     },
     src: 'dist/parent',
     dest: '/wp-content/themes/slate-<%= package.version %>',
-    simple: false,
+    simple: true,
     useList: false
   }
 };

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: page
+Template Name: page-event
 */
 ?>
 
@@ -59,70 +59,24 @@ Template Name: page
 			<article class="Content Content--home u-gridCol8" id="post-<?php the_ID(); ?>">
 				<h2 class="page-h2"><?php the_title(); ?></h2>
 				<div class="content-padding">
-					<?php the_content(); 
-						$image1 = get_field('image1');
-						$image2 = get_field('image2');
-						$image3 = get_field('image3');
-						$link1 = get_field('link-image1');
-						$link2 = get_field('link-image2');
-						$link3 = get_field('link-image3');
-						$video1 = get_field('video1');
-						$button1 = get_field('button1');?>
+					<?php the_content();  ?>
+						
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.png"/ >
 				</div>
 			</article>
 			<div class="extension Content-entry content-page u-gridCol4">
-					<article class="extender-in u-gridCol4">	
-						<div class="side-right">
-							<div class="">
-								<?php if( !empty($video1) ): ?>
-									<div><?php echo $video1; ?></div>
-								<?php endif; ?>
-							</div>
+					<article class="extender-in-2">	
+						<div class="side-right2">
+							
 							<div>
-								<?php if( !empty($button1) ): ?>
-									<div class="buttonskin"><?php echo $button1; ?></div>
-								<?php endif; ?>
+								<?php echo do_shortcode('[gravityform id="3"]'); ?>
 							</div>
-							<div>
-								<?php if( !empty($image1) ): ?>
-									<?php if( !empty($link1) ): ?>
-										<a href="<?php the_field("link-image1")?>" ><p class="page-sidebar-right-image-title"><?php echo $image1['alt']; ?></p><img  class="page-sidebar-right-img" src="<?php echo $image1['url']; ?>" alt="<?php echo $image1['alt']; ?>"/></a>
-									<?php else: ?>
-										<img  class="page-sidebar-right-img" src="<?php echo $image1['url']; ?>" alt="<?php echo $image1['alt']; ?>"/>
-									<?php endif; ?>	
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php if( !empty($image2) ): ?>
-									<?php if( !empty($link2) ): ?>
-										<a href="<?php the_field("link-image2")?>" ><p class="page-sidebar-right-image-title"><?php echo $image2['alt']; ?></p><img  class="page-sidebar-right-img" src="<?php echo $image2['url']; ?>" alt="<?php echo $image2['alt']; ?>"/></a>
-									<?php else: ?>
-										<img  class="page-sidebar-right-img" src="<?php echo $image2['url']; ?>" alt="<?php echo $image2['alt']; ?>"/>
-									<?php endif; ?>	
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php if( !empty($image3) ): ?>
-									<?php if( !empty($link3) ): ?>
-										<a href="<?php the_field("link-image3")?>" ><p class="page-sidebar-right-image-title"><?php echo $image3['alt']; ?></p><img  class="page-sidebar-right-img" src="<?php echo $image3['url']; ?>" alt="<?php echo $image3['alt']; ?>"/></a>
-									<?php else: ?>
-										<img  class="page-sidebar-right-img" src="<?php echo $image3['url']; ?>" alt="<?php echo $image3['alt']; ?>"/>
-									<?php endif; ?>	
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php if( !empty($image4) ): ?>
-									<?php if( !empty($link4) ): ?>
-										<a href="<?php the_field("link-image4")?>" ><p class="page-sidebar-right-image-title"><?php echo $image4['alt']; ?></p><img  class="page-sidebar-right-img" src="<?php echo $image4['url']; ?>" alt="<?php echo $image4['alt']; ?>"/></a>
-									<?php else: ?>
-										<img  class="page-sidebar-right-img" src="<?php echo $image4['url']; ?>" alt="<?php echo $image4['alt']; ?>"/>
-									<?php endif; ?>	
-								<?php endif; ?>
-							</div>
-							 <img class="heiniken" src="<?php echo get_stylesheet_directory_uri(); ?>/img/biervilter.png"/>
+							
+						<img class="heiniken-2" src="<?php echo get_stylesheet_directory_uri(); ?>/img/biervilter.png"/>	 
 						</div>
 					</article>	
+					
 			</div>	
 			<?php endwhile; endif; ?>
 		</div>
