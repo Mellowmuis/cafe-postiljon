@@ -38,7 +38,13 @@ margin: 1%;
 	padding: 2% 0 4% 0;
 
 }
-
+// Gino Code ---------
+.foto-verhuur{
+	margin-bottom: 3px;
+	margin-top: 3px;
+	padding-left: 5px;
+}
+// --------------------
 .home-content{
 	position: relative;
 }
@@ -52,15 +58,15 @@ margin: 1%;
 	background-size:100% 100%;
 }
 .img2{
-	background: url("../img/home-content-2.png")no-repeat;
+	background: url("../img/home-content-21.png")no-repeat;
 	background-size:100% 100%;
 }
 .img3{
-	background: url("../img/home-content-3.png")no-repeat;
+	background: url("../img/home-content-69.png")no-repeat;
 	background-size:100% 100%;
 }
 .img4{
-	background: url("../img/home-content-4.png")no-repeat;
+	background: url("../img/home-content-59.png")no-repeat;
 	background-size:100% 100%;
 }
 .home-content-a{
@@ -354,6 +360,7 @@ margin-top: 25px;
     padding: 10px;
     height: 200px;
     overflow: hidden;
+    width: 100%;
     box-shadow: 1px 0px 0px 5px #0c4737 inset;
 }
 .blogpost{
@@ -449,15 +456,15 @@ padding: 10px 50px;
 		background-size:100% 100%;
 	}
 	.img2{
-		background: url("../img/home-content-mob-2.png")no-repeat;
+		background: url("../img/test3.jpg")no-repeat;
 		background-size:100% 100%;
 	}
 	.img3{
-		background: url("../img/home-content-mob-1.jpg")no-repeat;
+		background: url("../img/test6.jpg")no-repeat;
 		background-size:100% 100%;
 	}
 	.img4{
-		background: url("../img/home-content-mob-4.jpg")no-repeat;
+		background: url("../img/test2.jpg")no-repeat;
 		background-size:100% 100%;
 	}
 }
@@ -466,6 +473,15 @@ padding: 10px 50px;
 		background: #0C4737;
 	}
 }
+@media all and (max-width: 640px) {
+.extender-in{
+		position: relative;
+		background-image: none;
+	}
+	.heiniken{
+		display: none;
+	}
+	}
 @media all and (max-width: 600px) { 
 	.home-mid{
 		background: #0C4737;
@@ -484,14 +500,38 @@ padding: 10px 50px;
 		padding-top:0;
 		padding-bottom: 9%;
 	}
-	.extender-in{
-		position: relative;
-		background-image: none;
-	}
-	.heiniken{
-		display: none;
+
+}
+@media all and (max-width: 470px) { 
+	.agenda-wrapper{
+		h2{ font-size: 50px;
+		}
 	}
 }
+@media all and (max-width: 380px) { 
+	.agenda-wrapper{
+		h2{ font-size: 30px;
+		}
+	}
+}
+@media all and (max-width: 250px) { 
+	.agenda-wrapper{
+		h2{ font-size: 24px;
+		}
+	}
+}
+@media all and (max-width: 480px) { 
+	.buttonskinblog{
+		width: 100%;
+	}
+	.blogtitle{
+		width: 100%;
+		background: none repeat scroll 0% 0% rgb(12, 71, 55);
+		padding: 5%;
+		margin-bottom: 20px;
+	}
+}
+
 @media all and (max-width: 384px) {
 
 }
@@ -501,5 +541,10 @@ padding: 10px 50px;
 	}
 	.medium{
 		width: 100% !important;
+	}
+}
+@media all and (max-width: 380px) { 
+	.menu-menukaart {
+		width:120%;
 	}
 }

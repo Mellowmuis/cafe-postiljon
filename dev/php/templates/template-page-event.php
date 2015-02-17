@@ -18,10 +18,10 @@ Template Name: page-event
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/gebouw.png" />
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test1.jpg" />
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test2.jpg" />
                     </div>
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.png" />
@@ -37,9 +37,6 @@ Template Name: page-event
                     </div>
                     <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.png"/>
-                    </div>
-                    <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.png"/>
                     </div>
                 </div>   <!-- einde slider van de onderkant header --> 
                 <div class="slideronder-wrapper"> 
@@ -62,16 +59,23 @@ Template Name: page-event
 					<?php the_content();  ?>
 						
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.png"/ >
+                    <hr>
+					<img class="foto-verhuur" src="<?php echo get_stylesheet_directory_uri(); ?>/img/test5cutout.png"/ >
+                    <img class="foto-verhuur" src="<?php echo get_stylesheet_directory_uri(); ?>/img/test6cutout.png"/ >
+                    <img class="foto-verhuur" src="<?php echo get_stylesheet_directory_uri(); ?>/img/test7cutout.png"/ >
 				</div>
 			</article>
 			<div class="extension Content-entry content-page u-gridCol4">
 					<article class="extender-in-2">	
 						<div class="side-right2">
-							
 							<div>
-								<?php echo do_shortcode('[gravityform id="3"]'); ?>
-							</div>
+                                <video class="page-sidebar-right-img" width="320" height="240" controls="" poster="/wp-content/themes/slate-0.3.1_cafe-postiljon/img/fil-front.png">
+                                    <source type="video/mp4" src="/wp-content/themes/slate-0.3.1_cafe-postiljon/img/Postiljon.mp4"></source>
+                                    <source type="video/ogg" src="<?php echo get_stylesheet_directory_uri(); ?>/wp-content/themes/slate-0.3.1_cafe-postiljon/img/Postiljon.ogv"></source>
+                             </div>
+						          <div>
+								    <?php echo do_shortcode('[gravityform id="3"]'); ?>
+							      </div>
 							
 						<img class="heiniken-2" src="<?php echo get_stylesheet_directory_uri(); ?>/img/biervilter.png"/>	 
 						</div>

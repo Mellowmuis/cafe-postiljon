@@ -18,10 +18,10 @@ Template Name: menukaart
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/gebouw.png" />
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test1.jpg" />
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test7.jpg" />
                     </div>
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.png" />
@@ -37,9 +37,6 @@ Template Name: menukaart
                     </div>
                     <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.png"/>
-                    </div>
-                    <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.png"/>
                     </div>
                 </div>   <!-- einde slider van de onderkant header --> 
                 <div class="slideronder-wrapper"> 
@@ -59,7 +56,7 @@ Template Name: menukaart
 			<article class=" Content Content--home u-gridCol8" id="post-<?php the_ID(); ?>">
 				<h2 class="page-h2"><?php the_title(); ?></h2>
 				
-				<div class="content-padding menu-wrapper">
+				<div class=" menu-wrapper">
 					<div class="menu-menukaart">
 						<a class=" menu-menukaart-button menu1" href="#" >Lunchkaart</a>
 						<a class=" menu-menukaart-button menu2" href="#" >Dinerkaart</a>

@@ -20,7 +20,7 @@ Template Name: App page
 
 					Voor Apple iPhone gebruikers: scan de QR-code of surf naar de website. 
 
-					<a href="#">Download de app hier</a>
+					<a href="https://play.google.com/store/apps/details?id=com.wCafeenBrasseriePostiljon&hl=en">Download de app hier</a>
 
 
 

@@ -5,31 +5,32 @@ Template Name: Homepage
 ?>
   
 <?php get_header(); ?>
+
 <div class="header-slider">
         <div class="u-gridContainer ">
             <div class="sliderboven-wrapper">
                 <div class="sliderBoven"></div>
-            </div>
+            </div> 
                 <div class="Slider"> <!-- Dit is de slider in de onderkant header -->
-                    <div>
+                     <div> 
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.jpg" >
                     </div>
-                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/gebouw.png" />
+                     <div> 
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test.jpg" />
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.jpg" />
-                    </div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test2.jpg" />
+                    </div> 
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.jpg" />
-                    </div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test6.jpg" />
+                    </div> 
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.png" />
                     </div>
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/7.jpg"/ >
                     </div>
-                     <div>
+                     <div> 
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/8.jpg"/>
                     </div>
                     <div>
@@ -39,7 +40,7 @@ Template Name: Homepage
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.png"/>
                     </div>
                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.png"/>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test4.jpg"/>
                     </div>
                 </div>   <!-- einde slider van de onderkant header --> 
                 <div class="slideronder-wrapper"> 
@@ -64,7 +65,7 @@ Template Name: Homepage
 				</div>
 			</article>
 			<artcicle class="u-gridCol3">
-				 <img  class="header-onderkant-slider-image jaar"src="<?php echo get_stylesheet_directory_uri(); ?>/img/postiljon-30jaar.png" /> 
+				 <img  class="jaar"src="<?php echo get_stylesheet_directory_uri(); ?>/img/postiljon-30jaar.png" /> 
 			</article>
 		<?php endwhile; endif; ?>
 		</div>

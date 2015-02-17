@@ -13,16 +13,16 @@ Template Name: landingspage
             </div>
                 <div class="Slider"> <!-- Dit is de slider in de onderkant header -->
                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider1.jpg" >
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test.jpg" >
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test1.jpg" />
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test2.jpg" />
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test4.jpg" />
                     </div>
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.jpg" />
@@ -56,7 +56,7 @@ Template Name: landingspage
 
 							<?php while (have_posts()) : the_post(); ?>
 
-								<article class="blogpost"<?php post_class() ?> id="post-<?php the_ID(); ?>">
+								<article class="blogpost" <?php post_class() ?> id="post-<?php the_ID(); ?>">
 									<h2 class="blogtitleh2"><?php the_title(); ?><span class="blogtitle"><?php the_time( get_option( 'date_format' ) ); ?></span></h2>
 									<div class="pblog"><?php the_content('Read the rest of this entry &raquo;'); ?></div>
 									<a class="buttonskinblog" href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Lees meer</a>
