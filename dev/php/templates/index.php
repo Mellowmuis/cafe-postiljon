@@ -57,7 +57,7 @@ Template Name: landingspage
 							<?php while (have_posts()) : the_post(); ?>
 
 								<article class="blogpost" <?php post_class() ?> id="post-<?php the_ID(); ?>">
-									<h2 class="blogtitleh2"><?php the_title(); ?><span class="blogtitle"><?php the_time( get_option( 'date_format' ) ); ?></span></h2>
+									<h2 class="blogtitleh2"><?php the_title(); ?><span class="blogtitle"></span></h2>
 									<div class="pblog"><?php the_content('Read the rest of this entry &raquo;'); ?></div>
 									<a class="buttonskinblog" href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Lees meer</a>
 								</article>

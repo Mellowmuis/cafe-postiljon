@@ -5,29 +5,35 @@
                 <div class="sliderBoven"></div>
             </div>
                 <div class="Slider"> <!-- Dit is de slider in de onderkant header -->
-                    <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider1.jpg" >
+                     <div> 
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.jpg" >
+                    </div>
+                     <div> 
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test.jpg" />
                     </div>
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/2.jpg" />
-                    </div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test2.jpg" />
+                    </div> 
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.jpg" />
-                    </div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test6.jpg" />
+                    </div> 
                      <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.jpg" />
-                    </div>
-                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.jpg" />
-                    </div>
-                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.png" />
                     </div>
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/7.jpg"/ >
                     </div>
-                     <div>
+                     <div> 
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/8.jpg"/>
+                    </div>
+                    <div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/5.png"/>
+                    </div>
+                    <div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/6.png"/>
+                    </div>
+                    <div>
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/test4.jpg"/>
                     </div>
                 </div>   <!-- einde slider van de onderkant header --> 
                 <div class="slideronder-wrapper"> 

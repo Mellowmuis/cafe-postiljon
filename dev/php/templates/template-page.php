@@ -13,7 +13,7 @@ Template Name: page
             </div>
                 <div class="Slider"> <!-- Dit is de slider in de onderkant header -->
                     <div>
-                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.jpg" />
+                        <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.jpg" s/>
                     </div>
                      <div>
                         <img  class="header-onderkant-slider-image"src="<?php echo get_stylesheet_directory_uri(); ?>/img/gebouw.png" />
